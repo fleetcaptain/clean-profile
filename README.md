@@ -11,4 +11,5 @@ The username should be the user's Windows login name and depends on your organiz
 Examples:
 
 PS > clean-profile.ps1 user-pc-34 jdoe //clean user jdoe's profile on user-pc-34
+
 PS > clean-profile.ps1 192.168.1.45 all //clean every user profile on computer 192.168.1.45
