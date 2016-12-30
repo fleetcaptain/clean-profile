@@ -5,7 +5,7 @@ This Powershell script connects to a remote computer through the c$ share and de
 
 To run the script:
 
-PS > clean-profile.ps1 <computername or IP> <username or keyword all>
+PS > clean-profile.ps1 -computername or IP- -username or keyword all-
 
 The username should be the user's Windows login name and depends on your organization's naming convention. If the convention is first letter of first name + last name, then user John Doe's username would be jdoe. If the keyword 'all' is used in place of the username, then all profiles will be cleaned.
 
